@@ -1,0 +1,142 @@
+nav {
+  display: inline-block;
+  width: 100%;
+  background: #09339b;
+  margin-bottom: 0;
+  padding: 0; }
+
+ul li {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px; }
+  ul li a {
+    display: block;
+    padding-top: 15px;
+    height: 50px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none; }
+
+.nav-link {
+  font-size: 20px; }
+
+.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 25px; }
+
+.navbar {
+  padding: 0; }
+
+html, body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: #EDEDED; }
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 0; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 0;
+  padding: 0 0 20px 0;
+  margin-left: 0;
+  margin-right: 0;
+  height: auto;
+  background: #FFF; }
+
+nav {
+  height: 100px; }
+
+#banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden; }
+  #banner img {
+    width: 75%;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+
+#logo {
+  display: inline-block; }
+  #logo img {
+    width: 200px;
+    height: 100px; }
+
+.text-right article {
+  display: block;
+  width: 375px; }
+
+#why div {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 15px; }
+
+#why {
+  background: #EDEDED;
+  padding: 15px; }
+
+#map img, #food img {
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  margin: 0 15px 0 15px; }
+
+#shop {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px; }
+
+#shoppingImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+#about, #shop {
+  display: inline-block;
+  width: 100%;
+  background: #09339b;
+  padding: 15px; }
+  #about .display-4, #shop .display-4 {
+    padding: 10px; }
+  #about h4, #shop h4 {
+    color: #FFF; }
+  #about p, #about h5, #shop p, #shop h5 {
+    color: #000; }
+  #about h5, #shop h5 {
+    font-size: 1.5em; }
+
+#nextStep {
+  background: #EDEDED;
+  padding: 20px;
+  margin-bottom: 0; }
+
+footer {
+  display: block;
+  color: #FFF;
+  background: #000;
+  opacity: 0.75;
+  text-align: center;
+  padding: 20px; }
+
+#shop p {
+  color: #FFF; }
