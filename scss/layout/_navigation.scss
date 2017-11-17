@@ -1,0 +1,44 @@
+// Navigation
+
+nav {
+  display: inline-block;
+  width: 100%;
+  background: $primary-color5;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+ul {
+
+  li {
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    a {
+      display: block;
+      padding-top: 15px;
+      height: 50px;
+      font-size: 1.5em;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 25px;
+}
+
+.navbar {
+  padding: 0;
+}

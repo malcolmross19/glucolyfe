@@ -1,0 +1,105 @@
+// Content
+
+nav {
+  height: 100px;
+}
+
+#banner {
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+
+  img {
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+#logo {
+  display: inline-block;
+
+  img {
+    width: 200px;
+    height: 100px;
+  }
+}
+
+.text-right article {
+  display: block;
+  width: 375px;
+}
+
+#why div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: 15px;
+}
+
+#why {
+  background: $neutral-color3;
+  padding: 15px;
+}
+
+#map img, #food img {
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  margin: 0 15px 0 15px;
+
+}
+
+#shop {
+  justify-content: center;
+  padding: 20px;
+}
+
+#shoppingImages {
+  display: flex;
+  justify-content: center;
+}
+
+#about, #shop {
+  display: inline-block;
+  width: 100%;
+  background: $primary-color5;
+  padding: 15px;
+
+  .display-4 {
+    padding: 10px;
+  }
+
+  h4 {
+    color: #FFF;
+  }
+
+  p, h5 {
+    color: #000;
+  }
+
+  h5 {
+    font-size: 1.5em;
+  }
+}
+
+#nextStep {
+  background: $neutral-color3;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+footer {
+  display: block;
+  color: #FFF;
+  background: #000;
+  opacity: 0.75;
+  text-align: center;
+  padding: 20px;
+}
+
+#shop p {
+  color: #FFF;
+}
